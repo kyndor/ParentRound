@@ -1,0 +1,89 @@
+<div class="container page_view">
+    <div class="row rc">
+        <div class="col-sm-10 col-md-8 col-lg-6 cc">
+            <div class="school_icon_top"><img src="images/university_black@2x.png" alt="" /><span id="thanks_num" class="pull-right"></span></div>
+            <h1 class="headerSchoolName"></h1>
+            <p id="ribbonTxt">Say Thanks to Parents</p>
+        </div>        
+    </div>
+    
+    <div class="row rc">
+        <div class="col-sm-10 col-md-8 col-lg-6 cc radioBtns">
+            <p id="thankErrMessage"></p>
+            <div class="row rc">
+                <div class="col-xs-12 col-sm-12 col-md-4 cc">
+                    <label class="radio-inline">
+                        <input type="radio" name="whom2thank" id="rdoParent" value="thankParent" checked="checked"> Thank Parents
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 cc">
+                    <label class="radio-inline">
+                        <input type="radio" name="whom2thank" id="rdoTeacher" value="thankTeache"> Thank Teachers
+                    </label>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-4 cc">
+                    <label class="radio-inline">
+                        <input type="radio" name="whom2thank" id="rdoSchool" value="thankSchool"> Thank School
+                    </label>
+                </div>
+            </div>
+            
+            
+        </div>
+    </div>
+    <div class="row rc">
+        <div class="col-sm-10 col-md-8 col-lg-5 cc thankMsgForms">
+            <div id="thankParentForm">
+                <form id="frmThankParent">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                        <input type="text" id="inpParentEmail" name="inpParentEmail" class="form-control" placeholder="Parent's Email">
+                    </div>  
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                        <input type="text" id="inpParentName" name="inpParentName" class="form-control" placeholder="Parent's Name">
+                    </div>
+                    <div class="thank_dropdown">
+                        <select class="thankMsg" id="parentMessage" name="parentMessage">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div id="thankTeacherForm">
+                <form id="frmThankTeacher">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                        <input type="text" id="inpTeacherEmail" name="inpTeacherEmail" class="form-control" placeholder="Teacher's Email">
+                    </div>  
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                        <input type="text" id="inpTeacherName" name="inpTeacherName" class="form-control" placeholder="Teacher's Name">
+                    </div>
+                    <div class="thank_dropdown">
+                        <select class="thankMsg" id="teacherMessage">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            <div id="thankSchoolForm">
+                <form id="frmThankSchool">
+                    <div class="thank_dropdown">
+                        <select class="thankMsg" id="schoolMessage">
+                        </select>
+                    </div>
+                </form>
+            </div>
+            
+            <div class="row capcthaSubmit">
+                <div class="col-xs-12 col-sm-12 col-md-8 dvCaptcha">
+                    <!--<div class="g-recaptcha" data-sitekey="6LdBxzcUAAAAAPLgnlMwZh6b6aTLwCtUOy1kHEUz"></div>-->
+                    <div id="recaptcha_here" class="recaptcha_here"></div>
+                </div>
+                <div class="col-xs-12 col-sm-12 col-md-3 btn-div pull-right">
+                    <button class="btn greyBtn btnThankSubmit" id="btnThankParent">Submit</button>
+                </div>
+            </div>
+            <button class="btn greyBtn" id="btn_go_back">Go Back</button>
+        </div>        
+    </div>
+</div>

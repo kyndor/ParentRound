@@ -1,0 +1,42 @@
+<div class="container page_view">
+    <div class="row rc">
+        <div class="col-sm-10 col-md-8 col-lg-6 cc">
+            <h1 class="headerTxt">Search For School</h1>
+            <div class="row searchSchoolForm">
+                <div class="col-sm-10 col-md-3">
+                    <input class="form-control" id="zipInp" placeholder="Zip" />
+                </div>
+                <div class="col-sm-10 col-md-9">
+                    <input class="form-control" id="schoolNameInp" placeholder="School Name" />
+                </div>
+            </div>
+            <div class="row results_area">
+                <p id="searchPlaceHolderTxt"></p>
+                <div class="col-sm-12" id="scrollableResult">
+                    <div class="row school_result">
+                        <div class="col-xs-2"><img src="images/university@2x.png" alt=""></div>
+                        <div class="col-xs-9 placeholder_progress">
+                            <p class="text-center">Search results will appear here </p>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+            <p id="search_total"></p>
+            <ul class="pager">
+                <li class="previous"><button class="btn btn-default btn_pagination" id="first_btn">&laquo; First</button></li>
+                <li class="previous"><button class="btn btn-default btn_pagination" id="prev_btn">&larr; Prev</button></li>
+                <li class="next"><button class="btn btn-default btn_pagination" id="next_btn">Next &rarr;</button></li>
+                <li class="next"><button class="btn btn-default btn_pagination" id="last_btn">Last &raquo;</button></li>
+            </ul>
+            <div class="row">
+                <div class="col-xs-12 col-sm-8 col-md-5" id="selectandthank">
+                    <h4 id="selectnThanktxt">Select School &amp; Thank Teacher/Parent</h4>
+                </div>
+                <div class="col-sm-3 pull-right">
+                    <button class="btn greyBtn" id="btnThankSchool" disabled>Select School</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

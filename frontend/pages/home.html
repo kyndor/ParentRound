@@ -1,0 +1,40 @@
+<div class="row">
+    <div class="col-md-7 hidden-xs hidden-sm" id="bg_image">
+    
+    </div>
+    <div class="col-md-5" id="login_signup">
+        <div class="row rc">
+            <div class="col-sm-10 col-md-8 cc">
+                <p class="text-center login_logo"><img src="images/parent_round_logo.jpg" alt=""></p>
+            </div>
+            <div class="col-sm-10 col-md-8 cc allForm" id="dvSignup">
+                <p cllass="text-center formTxt">Please choose a SignUp method to move forward</p>
+                <a href="#" id="lnkFBSignup"><p class="big_btn facebook_btn text-center">SignUp With Facebook <i class="fa fa-facebook"></i></p></a>
+                <p class="select_or_txt"><span>or use Email</span></p>
+                <p id="signUpErrTxt"></p>
+                <form id="signUpfrm">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                        <input type="text" id="inpSignupName" name="name" class="form-control" placeholder="Your Name">
+                    </div>  
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                        <input type="text" id="inpSignupEmail" name="email" class="form-control" placeholder="Your Email">
+                    </div>  
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" id="inpSignUpPass" name="password" class="form-control" placeholder="Your Password">
+                    </div>
+                    <div id="recaptcha_here"></div>
+                </form>
+                <button id="lnkSignUp" class="big_btn loginBtn text-center">SignUp</button>
+                
+                <hr/>
+                <button class="link_btn" id="lnkChangeLogin">Already have an account? Login!</button>
+                <button class="link_btn" id="forgotPassBtn">Forgot Password?</button>
+                
+            </div>
+            
+        </div>
+    </div>
+</div>

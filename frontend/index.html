@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- define angular app -->
+<html ng-app="parentRoundApp">
+   <head>
+       
+       <title>Thank your teacher and schools | ParentRound.com</title>
+       <meta content="width=device-width,initial-scale=1" name=viewport>
+       <meta charset=utf-8>
+       <meta content="IE=edge" http-equiv=X-UA-Compatible>
+       <meta property='og:title' content="I have thanked my school at thanks.parentround.com" />
+       <meta property='og:description' content="Join me with other parents in thanking schools." />
+       <meta property='og:type' content="website"/>
+       <meta property='og:url' content="http://thanks.parentround.com"/>
+       <meta property='og:image' content="https://thanks.parentround.com/images/logo_square.jpg"/>
+
+       
+       
+        
+      <!-- SCROLLS -->
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+       <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/css/bootstrap-select.min.css" />
+       <link rel="stylesheet" href="css/style.css" />
+       
+        <!-- SPELLS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular.min.js"></script>
+        <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.25/angular-route.js"></script>
+       <script src="https://www.google.com/recaptcha/api.js?render=explicit"></script>
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.min.css" />
+       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials-theme-flat.min.css" />
+       <!-- MouseStats:Begin -->
+<script type="text/javascript">var MouseStats_Commands=MouseStats_Commands?MouseStats_Commands:[]; (function(){function b(){if(void 0==document.getElementById("mstrkscpt")){var a=document.createElement("script");a.type="text/javascript";a.id="mstrkscpt";a.src=("https:"==document.location.protocol?"https://ssl":"http://www2")+".mousestats.com/js/5/4/5493193606126665548.js?"+Math.floor((new Date).getTime()/6E5);a.async=!0;a.defer=!0;(document.getElementsByTagName("head")[0]||document.getElementsByTagName("body")[0]).appendChild(a)}}window.attachEvent?window.attachEvent("onload",b):window.addEventListener("load", b,!1);"complete"===document.readyState&&b()})(); </script>
+<!-- MouseStats:End -->
+       <script src="js/script.js"></script>
+       
+    </head>
+    <!-- define angular controller -->
+    <body ng-controller="mainController">
+        <nav class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar-collapse-1" aria-expanded="false">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/#search-school"><img src="images/parent_round_logo.jpg" alt=""></a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right loginLink">
+                        <li><button id="topRightEmailLnk">Sign Up</button> </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="main">
+            <!-- angular templating -->
+            <!-- this is where content will be injected -->
+            <div ng-view></div>
+        </div>
+        <footer>
+            <nav class="navbar navbar-default">
+                <div class="container">
+                    <div class="navbar-header">
+                       <a class="navbar-brand" href="/#search-school"><img src="images/parent_round_logo.jpg" alt="" style="width:80%;"></a>
+                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="https://www.parentround.com/contactus/" class="footerLinks">Contact us</a></li>
+                        <li><a href="https://www.parentround.com/login/userterms/" class="footerLinks">Terms of Service</a></li>
+                        <li><a href="https://www.parentround.com/login/userprivacy/" class="footerLinks">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="container footer_txt">
+                <p>Our terms of service and privacy policy have changed. <br/> By continuing to use this site, you are agreeing to the new privacy policy and terms of service</p>
+                <p class="pull-right">&copy; ParentRound 2017</p>
+            </div>
+            <div class="modal fade logout_confirmation" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                <div class="modal-dialog modal-sm" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                            <h4 class="modal-title">Logout</h4>
+                        </div>
+                        <div class="modal-body">
+                            <p>Are you sure you want to logout?</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button class="btn btn-success" data-dismiss="modal" id="logoutBtnModal">Confirm</button>
+                            <button class="btn btn-default" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.12.4/js/bootstrap-select.min.js"></script>
+        <script src="js/jssocials.js"></script>
+        <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jsSocials/1.5.0/jssocials.min.js"></script>-->
+        
+        <script>
+            
+            $('#logoutBtnModal').click(function(){
+                localStorage.removeItem("jwt_token");
+                window.location.href = '/#';
+            });
+        </script>
+    </body>
+</html>

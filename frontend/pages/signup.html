@@ -1,0 +1,117 @@
+<div class="row">
+    <div class="col-md-7 hidden-xs hidden-sm" id="bg_image">
+    
+    </div>
+    <div class="col-md-5" id="login_signup">
+        <div class="row rc">
+            <div class="col-sm-10 col-md-8 cc">
+                <p class="text-center login_logo"><a href="/"><img src="images/parent_round_logo.jpg" alt=""></a></p>
+            </div>
+            <div class="col-sm-10 col-md-8 cc allForm" id="dvSignup">
+                <p class="text-center formTxt">Please choose a SignUp method to move forward</p>
+                <a href="#" id="lnkFBSignup"><p class="big_btn facebook_btn text-center">SignUp With Facebook <i class="fa fa-facebook"></i></p></a>
+                <p class="select_or_txt"><span>or use Email</span></p>
+                <p id="signUpErrTxt"></p>
+                <form id="signUpfrm">
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-user-circle"></i></span>
+                        <input type="text" id="inpSignupName" name="name" class="form-control" placeholder="Your Name">
+                    </div>  
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-envelope-o"></i></span>
+                        <input type="text" id="inpSignupEmail" name="email" class="form-control" placeholder="Your Email">
+                    </div>  
+                    <div class="input-group">
+                        <span class="input-group-addon"><i class="fa fa-lock"></i></span>
+                        <input type="password" id="inpSignUpPass" name="password" class="form-control" placeholder="Your Password">
+                    </div>
+                    <div class="input-group" style="margin-bottom:0px;">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="chkJoin" name="join_group" value="1"> Join the School Group with other Parents
+                            </label>
+                        </div>
+                    </div>
+                    <div class="input-group" style="margin-top:0px;">
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" id="chkAccept"> I agree to <a href="https://www.parentround.com/login/userterms/" target="_blank">terms &amp; conditions</a>.
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div id="recaptcha_here"></div>
+                </form>
+                <button id="lnkSignUp" class="big_btn loginBtn text-center">SignUp</button>
+                
+                <hr/>
+                <button class="link_btn" id="lnkChangeLogin">Already have an account? Login!</button>
+                <button class="link_btn" id="forgotPassBtn">Forgot Password?</button>
+                
+                <div class="modal fade success-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Success</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Your account was created successfully. You can now login</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-primary" data-dismiss="modal">Continue</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade forgot-modal" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Forgot Password?</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Enter your email</p>
+                                <div class="row">
+                                    <div class="col-xs-12 col-sm-12">
+                                        <input class="form-control forgotInp" type="email">
+                                    </div>
+                                </div>
+                                <p style="color:red" id="resetErrmsg"></p>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" id="btnForgetPassSend">Send Reset Link</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="modal fade success_reset_msg" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel">
+                    <div class="modal-dialog modal-sm" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                <h4 class="modal-title">Password reset requested</h4>
+                            </div>
+                            <div class="modal-body">
+                                <p>Your password request was initiated successfully</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="signUp_terms">
+            <p>
+                <a href="https://www.parentround.com/contactus/" class="footerLinks">Contact us</a>
+                <a href="https://www.parentround.com/login/userterms/" class="footerLinks">Terms of Service</a>
+                <a href="https://www.parentround.com/login/userprivacy/" class="footerLinks">Privacy Policy</a>
+            </p>
+        </div>
+    </div>
+</div>

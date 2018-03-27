@@ -1,0 +1,660 @@
+body {
+    font-family: Lato,helvetica, arial, sans-serif;
+}
+html, body { width:100%; }
+
+.navbar-default {
+    background: #fff;
+    border: none;
+    margin-bottom: 48px;
+}
+.navbar-brand {
+    padding: 5px 0;
+}
+.navbar-brand img {
+    max-width: 90%;
+    margin: auto;
+    z-index: 100;
+}
+.loginLink button {
+    margin-top: 15%;
+    font-size: 17px;
+    color: #7FB127;
+    background: transparent;
+    border: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent;
+}
+.pager {
+    display: none;
+}
+#pr_img img {
+    max-width: 100%;
+}
+.jssocials-shares {
+    text-align: center;
+}
+.jssocials-share-link {
+    border-radius: 50%;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+    background: #fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #7fb127
+}
+footer .navbar-default {
+    border: none;
+}
+.landing_bg {
+    background: #000;
+}
+.jumbotron {
+    background: transparent;
+}
+.landing_txt {
+    margin-top: 30px
+}
+.jumbotron h1 {
+    color: #fff;
+    text-align: center;
+    text-shadow: 2px 1px #333;
+    font-size: 48px;
+}
+.jumbotron h1 span {
+    font-size: 35px;
+}
+.jumbotron p {
+    color: #fff;
+}
+#btn_go_back {
+    display: block;
+    margin: auto;
+    border: none;
+    background: #7fb127;
+    padding: 7px 10px;
+    color: #fff;
+    max-width: 105px;
+}
+#forgotPassBtn {
+    font-size: 12px;
+    font-style: italic;
+    background: transparent;
+    color: #fff;
+}
+#login_signup #forgotPassBtn {
+    color: #000;
+}
+#dvLogin {
+    border: 2px solid #7fb127;
+    padding: 12px;
+    background: rgba(0, 0, 0, 0.5);
+}
+#dvLogin .input-group-addon {
+    background: transparent;
+}
+#dvLogin input {
+    background: transparent;
+    color: #7fb127;
+    height: 35px;
+}
+#lnkChangeSignUp {
+    background: transparent;
+    color: #fff;
+}
+#bottom_area {
+    background: #7fb127;
+    padding: 35px;
+}
+#pr_desc {
+    color: #7fb127;
+    margin-bottom: 10px;
+}
+#signUp_terms {
+    margin-top: 30px;
+}
+#signUp_terms p {
+    text-align: center;
+}
+#signUp_terms a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+#signUpfrm .checkbox {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+#bottom_area cc {
+    margin: 10px 30px;
+}
+.bottom_box {
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+}
+.bottom_box img {
+    max-width: 65px;
+    display: block;
+    margin: auto;
+}
+#main {
+    border-top: 2px solid #7fb127;
+    border-bottom: 2px solid #7fb127;
+    padding: 20px;
+}
+.navbar-default .navbar-nav>li>a,
+a {
+    color: #7fb127;
+}
+.footer_txt {
+    text-transform: uppercase;
+    font-size: 10px;
+    margin-top: 17px;
+}
+.rc {
+    text-align:center;
+}
+.cc {
+    display:inline-block;
+    float:none;
+    /* reset the text-align */
+    text-align:left;
+    /* inline-block space fix */
+    margin-right:-4px;
+}
+#recaptcha_here > div {
+    margin:auto;
+}
+#recaptcha_here {
+    margin-bottom: 10px;
+}
+.headerTxt,
+.headerSchoolName,
+.referOthertxt {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color: #7fb127;
+    font-size: 30px;
+    font-weight: bold;
+    border-bottom: 1px dashed #7fb127;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+.headerSchoolName,
+.referOthertxt {
+    color: #000;
+}
+.no_display {
+    display: none;
+}
+.form-control {
+    color: #7fb127;
+    margin-bottom: 5px;
+}
+.form-control:focus {
+  border-color: inherit;
+  box-shadow: inset 0 0px 0px rgba(0, 0, 0, 0.075), 0 0 8px #7fb127;
+}
+.searchSchoolForm {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.results_area {
+    min-height: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px dashed #7fb127;
+}
+#scrollableResult {
+    
+}
+#searchPlaceHolderTxt {
+    text-align: center;
+}
+#selectnThanktxt {
+    font-size: 15px;
+    font-weight: bold;
+}
+.embed-responsive-16by9 {
+    margin-bottom: 20px;
+}
+.greyBtn {
+    background: #adacac;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    width: 100%;
+}
+#btnFindSchool,
+.btnThankSubmit {
+    background: #7fb127;
+}
+.btn-div {
+    padding: 0px;
+}
+.dvCaptcha {
+    padding-left: 0px;
+}
+a:hover, a:focus {
+    background-color: transparent;
+    text-decoration: none;
+    color: #7fb127;
+}
+.schoolNametxt {
+    color: #000;
+}
+#resultsTxt {
+    font-size: 18px;
+    font-weight: bold;
+}
+.placeholder_progress {
+    padding-top: 10px;
+}
+.placeholder_progress .progress-bar {
+    background-color: #7fb127;
+}
+.school_result {
+    background: #EDECED;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.school_result img {
+    max-width: 45px;
+    margin-top: 10px;
+}
+.schoolNametxt {
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 2px;
+}
+.schoolDescTxt {
+    color: #7fb127;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.checkSchool {
+    font-size: 22px;
+    padding-top: 6px;
+    display: none;
+    color: #7fb127;
+}
+.selected_school {
+    background: #E7F1D8;
+    border: 1px solid #7fb127;
+}
+.school_icon_top {
+    text-align: center;
+}
+.school_icon_top img {
+    max-width: 50px;
+}
+#ribbonTxt {
+    color: #fff;
+    text-align: center;
+    background: #7fb127;
+    text-align: center;
+    padding: 11px;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    height: 3em;
+}
+#ribbonTxt:before, #ribbonTxt:after {
+  border-style: solid;
+  height: 0;
+  width: 0;
+  display: block;
+  content: "";
+  position: absolute;
+}
+#ribbonTxt:before, #ribbonTxt:after {
+  border-color: #7fb127 transparent;
+  top: 0;
+}
+#ribbonTxt:before {
+  left: -1.5em;
+  border-width: 1.5em 0 1.5em 1.5em;
+}
+#ribbonTxt:after {
+  right: -1.5em;
+  border-width: 1.5em 1.5em 1.5em 0;
+}
+#ribbonTxt i {
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 0;
+  top: -0.75em;
+  border-style: solid;
+  content: "";
+  border-color: #7fb127;
+  border-width: 0.75em 0.75em 1.5em 0;
+}
+
+#thanks_num {
+    color: #fff;
+    text-align: center;
+    background: #414141;
+    text-align: center;
+    padding: 7px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+    height: 3em;
+}
+#thanks_num:before, #thanks_num:after {
+  border-style: solid;
+  height: 0;
+  width: 0;
+  display: block;
+  content: "";
+  position: absolute;
+}
+#thanks_num:before, #thanks_num:after {
+  border-color: #414141 transparent;
+  top: 0;
+}
+#thanks_num:before {
+  left: -1.5em;
+  border-width: 1.5em 0 1.5em 1.5em;
+}
+#thanks_num:after {
+  right: -1.5em;
+  border-width: 1.5em 1.5em 1.5em 0;
+}
+#thanks_num i {
+  display: block;
+  position: absolute;
+  height: 0;
+  width: 0;
+  right: 0;
+  top: -0.75em;
+  border-style: solid;
+  content: "";
+  border-color: #414141;
+  border-width: 0.75em 0.75em 1.5em 0;
+}
+#choose_peopletxt {
+    text-align: center;
+    font-weight: bold;
+}
+.radioBtns {
+    text-align: center;
+    border-top: 2px dashed #7fb127;
+    padding-top: 35px;
+}
+.radioBtns label {
+    margin: 0 20px;
+}
+.radioBtns input:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #fff;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 1px solid #ddd;
+}
+
+.radioBtns input:checked:after {
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    top: -2px;
+    left: -1px;
+    position: relative;
+    background-color: #7fb127;
+    content: '';
+    display: inline-block;
+    visibility: visible;
+    border: 2px solid white;
+}
+#thankTeacherForm, 
+#thankSchoolForm {
+    display: none;
+}
+.thankMsgForms {
+    margin-top: 30px;
+    max-width: 100%;
+}
+.thankMsgForms input,
+.allForm input {
+    border: 1px solid #ddd;
+    border-left: none;
+}
+.thank_dropdown,
+.input-group,
+.capcthaSubmit{
+    margin: 20px;
+}
+.input-group-addon {
+    background-color: #fff;
+    color: #ddd;
+    border-color: #ddd;
+}
+
+.scrolling_persons {
+    position:relative;
+    margin:0 auto;
+    overflow:hidden;
+	padding:5px;
+  	height:90px;
+}
+.personName {
+    color: #414141;
+}
+.separator {
+    width: 30px;
+    border-top: 2px solid #7fb127;
+    margin: 5px auto;
+
+}
+.selected_image {
+    background: none;
+    color: #87B949;
+    position: absolute;
+    right: 20px;
+    display: none;
+}
+.allscroll {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.list_of_persons {
+    position:absolute;
+    left:0px;
+    top:0px;
+  	min-width:3000px;
+  	margin-left:12px;
+    margin-top:0px;
+    border: none;
+}
+.list_of_persons li{
+	display:table-cell;
+    position:relative;
+    text-align:center;
+    cursor:grab;
+    cursor:-webkit-grab;
+    color:#efefef;
+    vertical-align:middle;
+    margin-right: 10px;
+}
+.scroller {
+  text-align:center;
+  cursor:pointer;
+  display:none;
+  padding:7px;
+  padding-top:11px;
+  white-space:no-wrap;
+  vertical-align:middle;
+  background-color:#fff;
+}
+.scroller-right{
+  float:right;
+}
+.scroller-left {
+  float:left;
+}
+.lnkSelectPerson img {
+    background: #414141;
+    border-radius: 50%;
+    padding: 6px;
+    max-width: 38px;
+}
+.thankyouCheck {
+    color: #7fb127;
+    font-size: 35px;
+}
+.thankYouTxt {
+    color: #74b127;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+.shareTxt {
+    font-weight: bold;
+    font-size: 18px;
+    margin: 20px;
+}
+.sharing_icons img {
+    max-width: 45px;
+}
+.sharing_icons {
+    margin-top: 15px;
+}
+.sharing_icons .cc {
+    padding-right: 0;
+    max-width: 65px;
+}
+.helpTeacherTxt {
+    text-align: center;
+    padding-top: 0px;
+    border-top: 2px dashed #7fb127;
+    border-bottom: 2px dashed #7fb127;
+    padding-bottom: 18px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.helpTeacherTxt h2 {
+    text-decoration: underline;
+}
+#bg_image {
+    background: url(../images/background_login.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.landing_bg {
+    background: url(../images/bg_landing.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#login_signup {
+    padding-top: 10px;
+}
+.login_logo {
+    padding-top: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px
+}
+.login_logo img {
+    max-width: 90%;
+}
+.formTxt {
+    font-weight: bold;
+    font-size: 18px;
+    width: 80%;
+    margin: 0px auto;
+}
+.big_btn {
+    color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    margin: 35px 20px;
+    width: 90%;
+}
+.facebook_btn {
+    background: #3b5998;
+}
+.loginBtn {
+    background: #7fb127;
+    border: none;
+}
+.select_or_txt {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.select_or_txt:before {
+    border-top: 2px solid #ddd;
+    content:"";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute; /* positioning must be absolute here, and relative positioning must be applied to the parent */
+    top: 50%; left: 0; right: 0; bottom: 0;
+    width: 95%;
+    z-index: -1;
+}
+
+.select_or_txt span { 
+    background: #fff; 
+    padding: 0 15px; 
+}
+.link_btn {
+    margin: auto;
+    display: block;
+    border: none;
+    background-color: #fff;
+    font-size: 20px;
+}
+#dvSignup {
+    margin: auto;
+}
+#loginErrTxt,
+#signUpErrTxt,
+#thankErrMessage {
+    text-align: center;
+    font-size: 18px;
+    color: red;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.allForm hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#dvSignup .big_btn {
+    margin: 15px 20px;
+}
+
+#dvSignup .select_or_txt {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+#dvSignup .formTxt {
+    margin: 0px auto
+}
